@@ -12,11 +12,11 @@ terminal-border: "0"
 
 # Boot menu (styled like labels)
 + boot_menu {
-    left = 40%-45
-    top = 30%
-    width = 30%
-    height = 40%
-    align = "center"
+    left = 2%
+    top = 2%
+    width = 70%
+    height = 70%
+    align = "left"
     item_font = "Retro Gaming Regular 22"  # Changed to match title style
     item_color = "#eb4444"        # Same red as titles
     selected_item_color = "#ffffff" # White for selection highlight
@@ -32,9 +32,9 @@ terminal-border: "0"
 
 # Countdown (styled like titles)
 + label {
-    left = 40%
-    top = 50%
-    align = "center"
+    left = 4%
+    top = 96%
+    align = "left"
     id = "__timeout__"
     text = "I have %d mental illnesses"  # Uppercase to match style
     color = "#eb4444"                 # Same red
